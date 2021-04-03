@@ -1,0 +1,86 @@
+/* 2021-03-03 */
+
+body {
+	font-size: 15px;
+	font-family: Helvetica, Arial, "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", "tohoma,sans-serif";
+	margin: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: -15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding-bottom: .3em;
+    padding-top: 1em;
+	line-height: 1.2;
+    font-weight: bold;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-left: -15px;
+}
+
+h3 {
+    padding-top: 0.8em;
+    text-transform: uppercase;
+	font-weight: bold;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: gray;
+    padding-top: -.3em;
+    margin-top: -1.2em;
+    padding-bottom: .8em;
+    margin-left: -15px;
+}
+
+li {
+	margin-bottom: 0.75em;
+    margin-top: 0.75em;
+    margin-left: -20px;
+}
+
+input[type='checkbox']:disabled {
+    background: rgb(255, 255, 247);
+    color: -internal-light-dark(rgb(244, 247, 118), rgb(198, 39, 39));
+    cursor: default;
+    border-color: rgb(117, 117, 117);
+    border: 2px;
+}
+
+input[type='checkbox']:checked:disabled {
+    background: rgb(86, 86, 86);
+    color: -internal-light-dark(rgb(118, 247, 129), rgb(198, 39, 39));
+    cursor: default;
+    border-color: rgb(115, 115, 115);
+    border: 2px;
+    font-style: normal;
+    appearance: normal;
+}
+
+input[type='checkbox']{
+    width: .7rem !important;
+    height: .7rem !important;
+    margin: 0px 4px 4px 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance:none;
+    outline: 2px solid rgb(74, 74, 70);
+    box-shadow: none;
+    font-size: 1rem;
+  }
