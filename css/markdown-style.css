@@ -2,11 +2,11 @@
 
 body {
 	font-size: 15px;
-	font-family: Helvetica, Arial, "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", "tohoma,sans-serif";
-	margin: 0;
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-left: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+	margin: auto;
+    /* padding-right: 10%; */
+    /* padding-left: 10%; */
+    max-width: 50rem;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 	border-bottom-style: solid;
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: 0px;
+
 }
 
 h2 {
@@ -27,19 +27,18 @@ h2 {
     font-weight: bold;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    margin-left: 0px;
 }
 
 h3 {
     padding-top: 0.8em;
     text-transform: uppercase;
 	font-weight: bold;
-    margin-left: 15px;
+    margin-left: 2rem;
 }
 
 h4 {
 	font-weight: bold;
-    margin-left: 15px;
+    margin-left: 2rem;
 }
 
 h5 {
@@ -53,7 +52,13 @@ h5 {
 ul {
 	margin-bottom: 0.75em;
     margin-top: 0.75em;
-    margin-left: 12px; 
+    margin-left: 2rem; 
+
+    margin-block-start: .5rem;
+    margin-block-end: .5rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
 }
 
 li {
@@ -61,6 +66,18 @@ li {
     margin-top: 0.25em;
     /* margin-left: 0px; */
 }
+li > p {
+    margin-block-start: .0em;
+    margin-block-end: .0em;
+    margin-bottom: 0.0em;
+    margin-top: 0.0em;
+}
+
+
+p {
+    margin-left: 2rem;
+}
+
 
 input[type='checkbox']:disabled {
     background: rgb(255, 255, 247);
@@ -92,3 +109,4 @@ input[type='checkbox']{
     box-shadow: none;
     font-size: 1rem;
   }
+
